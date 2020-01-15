@@ -1,0 +1,61 @@
+.navbar{
+    padding: 5px 0;
+}
+.logo{
+    font-family: sans-serif;
+    font-size: x-large;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+.nav-item{
+    margin:0px 30px;
+    font-size: large;
+    font-weight: bold;
+}
+.slider-width{
+    padding: 0;
+}
+
+.card img{
+    transition: transform ease-out 1s;
+}
+.card img:hover{
+    transform: scale(1.1);
+}
+
+.box-shadow{
+    box-shadow: 1px 1px 20px 5px grey;
+}
+
+.flip{
+    transform-style: preserve-3d;
+    transition: transform 1s ease-out;
+}
+
+.flip:hover{
+    transform: rotateY(180deg)
+}
+
+.front{
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.back{
+    height: 200px;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    text-align: center;
+    vertical-align:middle;
+}
+
+.fas{
+    color: green;
+}
+
+.testimonial img{
+    height: 100px;
+    width: 100px;
+}
+
